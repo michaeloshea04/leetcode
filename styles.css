@@ -1,8 +1,23 @@
-.blog-header{
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+max-width: 1024px;
+margin: 0 auto;
+padding: 4rem 2rem
+
+}
+
+p{
     color: blue;
 }
 
-.language-csharp{
-    background-color: blue;
+.language-javascript{
+    background-color: black;
+    color: aliceblue;
+}
 
+.code-example{
+    background: blueviolet;
 }
