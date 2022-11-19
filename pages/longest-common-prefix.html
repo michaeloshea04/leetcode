@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FizzBuzz</title>
     <link rel="stylesheet" href="/styles.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.6.0/styles/panda-syntax-dark.css">
+
 </head>
 <body>
 
@@ -15,17 +18,41 @@
 
     <p>Date: 11/11/2022</p>
 
-    <h1>412. Fizz Buzz</h1>    
+    <h1>14. Longest Common Prefix</h1>
+    <h2>Type: <span>String</span></h2>    
 
     <h2 id="problem-description">Problem Description</h2>
 
-    <p>You are given an array arr which consists of only zeros and ones, divide the array into three non-empty parts such that all of these parts represent the same binary value.</p>
+    <p>Write a function to find the longest common prefix string amongst an array of strings. <br>
+
+      If there is no common prefix, return an empty string "".</p>
 
     <p>Example 1:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code class="hljs apache"><span class="hljs-attribute">Input</span>: arr =<span class="hljs-meta"> [1,0,1,0,1]</span>
-<span class="hljs-attribute">Output</span>:<span class="hljs-meta"> [0,3]</span>
-</code></pre></div></div>
+<pre><code>
+  Input: strs = ["flower","flow","flight"]
+Output: "fl"
+</code></pre>
+
+<p>Example 2:</p>
+
+<pre><code>
+  Input: strs = ["dog","racecar","car"]
+Output: ""
+Explanation: There is no common prefix among the input strings.
+</code></pre>
+
+<p>Constraints:</p>
+
+<pre><code>
+  
+  1 <= strs.length <= 200
+  0 <= strs[i].length <= 200
+  strs[i] consists of only lowercase English letters.
+
+</code></pre>
+
+
 
 <h2 id="solution">Solution</h2>
 
@@ -37,6 +64,7 @@
 <code id="language-csharp">Is this working?</code>
 
 </div>
+
 <a href="https://green-tree-07e5af600.2.azurestaticapps.net/">Link to demo with User Interface</a>
 
 <h3>JavaScript</h3>
@@ -51,5 +79,11 @@
 </div>
 
 </div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
 </body>
 </html>

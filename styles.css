@@ -14,8 +14,8 @@ p{
 }
 
 .language-javascript{
-    background-color: black;
-    color: aliceblue;
+    border: solid 2px, black;
+    border-radius: 10px;
 }
 
 .code-example{
