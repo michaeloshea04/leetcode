@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.6.0/styles/panda-syntax-dark.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="nav-container">
+        <a href="https://michaeloshea04.github.io/leetcode">._.</a>
+        <p id="dateField">Date: 11/11/2022</p>
+        </div>
+    
+        <h1>##. Problem Heading</h1>
+        <h3>Topics: 
+          <ul>
+            <li>String</li>
+            <li>Hash Table</li>
+          </ul>
+          
+        </h3>
+    
+        <h2 id="problem-description">Problem Description</h2>
+    
+        <p>Write a function to find the longest common prefix string amongst an array of strings. <br>
+    
+          If there is no common prefix, return an empty string "".</p>
+    
+        <p>Example 1:</p>
+    
+        <div class="leet-example">
+        <pre>
+        Input: strs = ["flower","flow","flight"]"
+        Output: "fl"
+        </pre>
+      </div>
+        
+    
+        <p>Example 2:</p>
+    
+        <div class="leet-example"><pre>
+        Input: strs = ["dog","racecar","car"]
+        Output: ""
+        Explanation: There is no common prefix among the input strings.
+        </pre></div>
+    
+        <p>Constraints:</p>
+    
+        <div class="leet-example"><pre>
+      
+        1 <= strs.length <= 200
+        0 <= strs[i].length <= 200
+        strs[i] consists of only lowercase English letters.
+    
+    </pre></div>
+    
+    
+    
+        <h2>Solution</h2>
+    
+        <h4>C#</h4>
+    
+        <div id="language-csharp">
+        <pre><code>
+          public void AddFirst(Node newNode)
+            {
+                if (this.First == null) //if the list is empty
+                {
+                    //insert the new node and point the head and tail to the node
+                    this.First = newNode;  
+                    this.Last = newNode;  
+                }
+                else
+                {
+                    newNode.Next = this.First;
+                    this.First = newNode;
+                }
+                Count++;
+            }
+    
+        </code></pre>
+        </div>
+    
+        
+        <a href="https://green-tree-07e5af600.2.azurestaticapps.net/">Link to demo with User Interface</a>
+       
+    
+        <h4>JavaScript</h4>
+    
+        <div class="language-javascript">
+          <pre><code>
+            function addSum(int1, int2){
+              let result = int1 + int2;
+              return result;
+            }
+          </code></pre>
+        </div>
+    
+        <div>
+          <h2>Complexity Analysis</h2>
+          <ul>
+            <li>Time Complexity
+              <ul>
+                <li>Insert answer here</li>
+              </ul>
+            </li>
+            <li>Space Complexity
+              <ul>
+                <li>Insert answer here</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    
+    
+      </div>
+    
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+      <script>
+        hljs.initHighlightingOnLoad();
+      </script>
+    
+</body>
+</html>
