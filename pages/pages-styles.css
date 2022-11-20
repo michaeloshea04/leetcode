@@ -22,7 +22,7 @@ body {
     justify-content: space-between;
 }
 
-#language-csharp{
+.language-kotlin{
     border: solid 2px, black;
     border-radius: 10px;
 }
