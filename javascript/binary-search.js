@@ -22,6 +22,6 @@ function binarySearch(list, item){
     return Null
 }
 
-console.log(binarySearch(numArray, 7))
+//console.log(binarySearch(numArray, 7))
 
 
